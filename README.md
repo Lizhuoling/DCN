@@ -20,7 +20,7 @@ First, you should run the file "build.sh" to prepare the running environment. yo
 ```
 sudo +x build.sh
 ./build.sh
-'''
+```
 Then, for the deterministic forecasting, you can use the following comand to train the model.
 ```
 python train.py
@@ -29,7 +29,13 @@ Next, you can validate the trained model using the following command.
 ```
 python validation.py
 ```
-Furthermore, for training the interval forecasting model, you should run the following two commands.
+Furthermore, for training the interval forecasting model, you should run the following two commands, respectively.
 ```
-python up_train.py'
+python up_train.py
+python down_train.py
 ```
+And you can use this command to verify its performance.
+```
+python pro_validation.py
+```
+
