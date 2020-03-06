@@ -13,12 +13,12 @@ print('hello world')
 ```
 In addition, the required libraries should be installed, such as tensorflow, keras, numpy, opencv, matplotlib, sklearn, scipy. You can use the following comand to install it in the Linux system.
 ```
-sudo pip install + "library name"
+sudo pip install "library name"
 ```
 ## Running steps
 First, you should run the file "build.sh" to prepare the running environment. you can use the following commands.
 ```
-sudo +x build.sh
+sudo chmod +x build.sh
 ./build.sh
 ```
 Then, for the deterministic forecasting, you can use the following comand to train the model.
