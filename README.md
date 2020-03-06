@@ -1,6 +1,6 @@
 # DCN 
 # Author: Zhuoling Li
-This is a simplified demo of this paper "Deep Learning based Densely Connected  Network for Load Forecasting". The training and validation data is the Australia dataset in this paper. It covers the period between 2011 to 2016.
+This is a simplified demo of the paper "Deep Learning based Densely Connected  Network for Load Forecasting". The training and validation data is the Australia dataset in this paper. It covers the period between 2011 and 2016. (2011 to 2015 for training and 2016 for validation)
 
 ## Environment requirement
 This code is implemented on the Ubuntu 17 system using Python2. If you want to run it with Python3. You should bridge the grammar gap between Python2 and Python3 by yourself. For example, the print in Python2 is
