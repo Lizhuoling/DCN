@@ -186,13 +186,11 @@ class model(object):
             MAPE=np.mean(np.abs(load_list-label_list)/label_list)
             MAE=np.mean(np.abs(load_list-label_list))
             MSE=np.mean((np.square(load_list-label_list)))
-            MAX=np.max(np.abs(load_list-label_list))
         
             print 'time:',time.time()-start_time
             print 'Mean absolute percentage error:',MAPE
             print 'Mean absolute error:',MAE 
             print 'Mean square error:',MSE
-            print 'Max deviation:',MAX
 
 if __name__=='__main__':
     a=model()
